@@ -20,7 +20,6 @@ export default function ProductCard({ product }: ProductCardProps) {
           <Image
             src={product.image}
             alt={product.name}
-            fill
             className="object-cover object-center group-hover:opacity-75"
             sizes="100vw" // Ensures the image takes full width of the container
             priority // Loads the image faster if it’s likely to be seen immediately

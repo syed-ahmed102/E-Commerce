@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "SAHN E-Commerce",
+  title: "Ahmed E-Commerce",
   description: "Next.js E-Commerce Website",
 };
 

@@ -23,7 +23,6 @@ export default function ProductPage() {
           <Image
             src={product.image}
             alt={product.name}
-            fill
             className="object-cover rounded-lg"
           />
         </div>
