@@ -1,12 +1,9 @@
-'use client'
-
-import Link from 'next/link'
-import { ShoppingBagIcon } from '@heroicons/react/24/outline'
-import { useCartStore } from '@/components/cartStore'
-// Assuming CartItem type is defined in cartStore
+import Link from 'next/link';
+import { ShoppingBagIcon } from '@heroicons/react/24/outline';
+import { useCartStore } from '@/components/cartStore';
 
 export default function Navbar() {
-  const cartItems = useCartStore((state:any) => state.items) || []
+  const cartItems = useCartStore((state) => state.items) || [];
 
   return (
     <nav className="bg-white shadow-sm">
@@ -29,5 +26,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
